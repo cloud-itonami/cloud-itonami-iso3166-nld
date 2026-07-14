@@ -1,0 +1,32 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "nld.burgerlijk-wetboek-boek-2"
+           :title "Burgerlijk Wetboek Boek 2, Rechtspersonen (Civil Code Book 2, Legal Entities)"
+           :jurisdiction "NLD"
+           :kind :law
+           :law-number "BWBR0003045"
+           :url "https://wetten.overheid.nl/BWBR0003045"
+           :url-provenance :official-wetten-overheid-nl
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "nld.uitvoeringswet-avg"
+           :title "Uitvoeringswet Algemene verordening gegevensbescherming (GDPR Implementation Act)"
+           :jurisdiction "NLD"
+           :kind :law
+           :law-number "BWBR0040940"
+           :url "https://wetten.overheid.nl/BWBR0040940"
+           :url-provenance :official-wetten-overheid-nl
+           :enacted-date "2018-05-16"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "nld.arbeidstijdenwet"
+           :title "Arbeidstijdenwet (Working Hours Act)"
+           :jurisdiction "NLD"
+           :kind :law
+           :law-number "BWBR0007671"
+           :url "https://wetten.overheid.nl/BWBR0007671"
+           :url-provenance :official-wetten-overheid-nl
+           :enacted-date "1995-11-23"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
